@@ -3,7 +3,7 @@
 # Example R code to install packages if not already installed
 #
 
-my_packages = c("e1071", "data.table","shinythemes")
+my_packages = c("e1071", "data.table","shinytheme")
 
 install_if_missing = function(p) {
   if (p %in% rownames(installed.packages()) == FALSE) {
