@@ -5,7 +5,7 @@ TrainSet <- read.csv("training.csv", header = TRUE)
 TrainSet <- TrainSet[,-1]
 
 
-fluidPage(theme = shinytheme("sandstone"),
+fluidPage(shinythemes::theme_sandstone(),
           navbarPage("WQD7001 - Group 11 Project App",
                      
                      tabPanel("Home",
