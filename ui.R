@@ -37,11 +37,6 @@ fluidPage(
                               
                      ),
                      
-                     tabPanel("About", 
-                              titlePanel("About"), 
-                              div(includeMarkdown("about.md"), 
-                                  align="justify")
-                     )
-                     
+     
           )
-)
+
